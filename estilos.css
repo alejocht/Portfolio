@@ -155,3 +155,30 @@ figure{
     text-align: center;
     padding-top: 10px;
 }
+#Formulario{
+    border: 1px solid white;
+    padding: 50px;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-right: 3px;
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+}
+input,
+textarea{
+    width: 300px;
+    margin-bottom: 10px;
+}
+#msg{
+    align-self: flex-start;
+    height: 100px;
+}
+button{
+    width: 80px;
+}
+
