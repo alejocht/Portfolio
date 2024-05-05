@@ -1,3 +1,4 @@
+/*CONTENEDORES PRINCIPALES*/
 *{
     margin: 0;
     box-sizing: border-box;
@@ -13,27 +14,12 @@ body{
     font-family: calibri;
     background-color: #3A506B;
     color: white;
-    
+    /*overflow-x: hidden;*/
 }
 footer{
     background-color: #0B132B;
 }
-
-
-.Opcion{
-    color: white;
-    text-decoration: none;
-}
-#Inicio{
-    background-color: red;
-    padding-bottom: 20%;
-    padding-top: 20%;
-    display: flex;
-    justify-content: center;
-
-}
-
-
+/* HEADER */
 nav{
     display: flex;
     align-items: center;
@@ -51,17 +37,121 @@ ul li{
     padding-bottom: 5px;
     padding-top: 5px;
 }
+.Opcion{
+    color: white;
+    text-decoration: none;
+}
 #listOpc{
     list-style-type: none;
 }
-
-
+/*INICIO*/
+#Inicio{
+    background-color: #335C81;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+}
 #fotoPerfil{
     border-radius: 50%;
-    width: 300px;
+    width: 300px;   
 }
 #nombre{
     padding-bottom: 20%;
+    padding-left: 11%;
 }
-
-
+/*SOBRE MI*/
+.SobreMi{
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;  
+}
+#ttlSobreMi{
+    font-size: 30px;
+}
+#pSobreMi{
+    font-size: 17px;
+    margin-bottom: 150px;
+}
+/*PROYECTOS*/
+#Proyectos{
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+figure{
+    width: 350px;
+    height: 320px;
+    border: 2px solid #1C2541;
+    border-radius: 8px;
+    padding: 20px;
+    display: inline-block;
+    margin: 3px;
+    background-color: #1C2541;
+    font-weight: bold;
+    font-size: 18px;
+}
+#ttlProyectos{
+    margin-top: -100px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    margin-bottom: 25px;
+}
+.imgProyecto{
+    width: 300px;
+    margin-left: 75px;
+    display: block;
+    margin: 0 auto;
+}
+#imgProyecto2{
+    height: 175px;
+}
+#imgProyecto3{
+    height: 170px;
+}
+/*REDES*/
+#Redes{
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.imgRedes{
+    width: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+#imgRedes2{
+    height: 85px;
+    width: 85px;
+}
+#ttlRedes{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/*CONTACTO*/
+#Contacto{
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
