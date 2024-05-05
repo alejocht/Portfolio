@@ -100,6 +100,11 @@ ul li{
     justify-content: center;
     text-align: center;
     padding-top: 10px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 figure{
     width: 350px;
