@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio alejocht</title>
     <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -31,6 +32,23 @@
         Actualmente estoy en mi segundo año de la Tecnicatura Universitaria de Programación. 🤓 <br>
         Tengo 21 años y vivo en Argentina. 🇦🇷
     </p>
+    <h1 class="SobreMi">Conocimientos</h1>
+    <table class="SobreMi" id="Conocimientos">
+        <tr>
+            <td>
+                <img CLASS="imgLang" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" alt="C">
+            </td>
+            <td>
+                <img CLASS="imgLang" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png" alt="C++">
+            </td>
+            <td>
+                <img CLASS="imgLang" src="https://thinkotb.b-cdn.net/wp-content/uploads/2023/01/c-4.svg" alt="C#">
+            </td>
+            <td>
+                <img CLASS="imgLang" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/1200px-VB.NET_Logo.svg.png" alt="VisualBasic">
+            </td>
+        </tr>
+    </table>
    </div>
 
    <div id="Proyectos">
@@ -96,14 +114,14 @@
         <h1>Contactame</h1>
         <div id="Formulario">
             <label for="nombre">Nombre:</label>
-            <input type="text">
+            <input type="text" id="nombretxt">
             <br>
             <label for="mail">Correo:</label>
-            <input type="email" name="mail" id="mail">
+            <input type="email" name="mail" id="mailtxt">
             <br>
             <label for="msg">Mensaje:</label>
-            <textarea name="msg" id="msg"></textarea>
-            <button type="submit">Enviar</button>
+            <textarea name="msg" id="msgtxt"></textarea>
+            <button onclick="CapturarMensaje()" type="submit">Enviar</button>
         </div>
 
     </div>
