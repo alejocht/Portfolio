@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+header{
+    background-color: #1C2541;
+    color: white;
+    font-weight: bold;
+
+}
+body{
+    font-family: calibri;
+    background-color: #3A506B;
+    color: white;
+    
+}
+footer{
+    background-color: #0B132B;
+}
+
+
+.Opcion{
+    color: white;
+    text-decoration: none;
+}
+#Inicio{
+    background-color: red;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+#Bienvenida{
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#listOpc{
+    list-style-type: none;
+}
+
+
+#fotoPerfil{
+    border-radius: 50%;
+    width: 300px;
+}
+#nombre{
+    padding-bottom: 20%;
+}
+
+
